@@ -12,7 +12,7 @@ export default function Home() {
         {/* Header / Intro */}
         <div className="space-y-3">
           <span className="inline-block px-3 py-1 text-xs font-medium tracking-wider text-indigo-400 bg-indigo-950/60 border border-indigo-800/50 rounded-full uppercase shadow-sm">
-            Welcome
+            Glad you're here
           </span>
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
             Welcome to my digital space.
