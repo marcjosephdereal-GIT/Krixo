@@ -2,10 +2,18 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 text-white flex flex-col items-center justify-center p-6 relative overflow-hidden">
-      {/* Background ambient glowing spheres */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl pointer-events-none" />
+    <main className="min-h-screen bg-gradient-to-br from-[#080b18] via-[#111126] to-[#071f2b] text-white flex flex-col items-center justify-center p-6 relative overflow-hidden">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 opacity-20"
+        style={{
+          backgroundImage:
+            "linear-gradient(rgba(148,163,184,0.07) 1px, transparent 1px), linear-gradient(90deg, rgba(148,163,184,0.07) 1px, transparent 1px)",
+          backgroundSize: "48px 48px",
+        }}
+      />
+      <div className="absolute -top-32 left-[18%] h-[30rem] w-[30rem] rounded-full bg-cyan-400/10 blur-3xl pointer-events-none" />
+      <div className="absolute -bottom-36 right-[12%] h-[34rem] w-[34rem] rounded-full bg-violet-500/15 blur-3xl pointer-events-none" />
 
       {/* Main Container */}
       <div className="max-w-md w-full text-center space-y-8 z-10">
