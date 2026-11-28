@@ -11,7 +11,7 @@ export default function Profile() {
         </p>
 
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7q0300JC7DyUIDfN1U29nMmsF65fnzxO4EoP4Nry4RQ&s=10/profile.jpg"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcZBIr45gj2abnUEfzHLxTE_KH8Lkyu9OhSuiE5zOmSQ&s=10"
           alt="Marc Joseph De Real"
           className="mx-auto mb-7 h-44 w-44 rounded-2xl border-4 border-fuchsia-400 object-cover shadow-lg shadow-fuchsia-500/30"
         />
