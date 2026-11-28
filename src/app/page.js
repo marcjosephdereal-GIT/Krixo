@@ -15,7 +15,7 @@ export default function Home() {
             Welcome
           </span>
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight bg-gradient-to-r from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
-            Hello there.
+            Welcome to my digital space.
           </h1>
           <p className="text-slate-400 text-sm sm:text-base leading-relaxed">
             Explore my personal digital space. Choose a destination below to get
